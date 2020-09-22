@@ -9,5 +9,5 @@ Chrome Driver
 Python 3+
 
 ### pip libraries:
-robotframework
-robotframework-seleniumlibrary
+- robotframework
+- robotframework-seleniumlibrary
