@@ -1,6 +1,6 @@
 *** Settings ***
-Documentation  A test suite to showcase a test automation run.
-              ...  Test automation suite should follow the manual test scripts
+Documentation  A small test suite to showcase a test automation run using a demo website.
+              ...  Note: an automation suite should always follow the successful run of manual test scripts.
 
 Resource  ../Resources/CommonFiles.robot
 Resource  ../Resources/HomepageApps/HomepageApp.robot
@@ -15,14 +15,15 @@ Test Teardown  End Web Test
 *** Test Cases ***
 
 Test Case 1: Users should be able to access the homepage of the Demo website
-    [Documentation]  Test Condition: Frontend Homepage tests
+    [Documentation]  Test Condition 1: Frontend Homepage tests
     [Tags]  Frontend Test
     The user is able to use the URL to access the Front End Homepage
     Use the Home nav and a permanent header on the home page to confirm the user is on the homepage
 
-Test Case 2: Users can go to the "About us" section of the Company area before logging in to their account
-    [Documentation]  Test Condition: Frontend Homepage tests
+Test Case 2: Users can go to the "About us" section from the "Company" Navigation link
+    [Documentation]  Test Condition 1: Frontend Homepage tests
     [Tags]  Frontend Test
     The user is able to use the URL to access the Front End Homepage
     Use the Home nav and a permanent header on the home page to confirm the user is on the homepage
-    Learn about the company
+    Click on the "About us" navigation link in the Company dropdown
+    Confirm the user has been redirected to the "About us" page

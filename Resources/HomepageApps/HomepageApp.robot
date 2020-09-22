@@ -15,8 +15,9 @@ Use the Home nav and a permanent header on the home page to confirm the user is 
     Confirm the presence of the "Home" navigation link
     Confirm the presence of the "Latest on blogs" header
 
-Learn about the company
-    Go to About
-    sleep  10s
-    Click on the "About Us" hidden in Comapny
-    sleep  10s
+Click on the "About us" navigation link in the Company dropdown
+    Hold the mouse over the "Company" navigation dropdown
+    Click on the "About Us" in the "Company" dropdown
+
+Confirm the user has been redirected to the "About Us" page
+    Check for the presence of the "About Us" toggle
