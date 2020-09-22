@@ -14,6 +14,3 @@ Begin Web Test
 
 End Web Test
     Close Browser
-
-
-Go to the Frontend Homepage

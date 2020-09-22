@@ -1,10 +1,6 @@
 *** Settings ***
-Library  SeleniumLibrary
 
 Resource  ../PO/NavPO.robot
-
-
-*** Variables ***
 
 
 *** Keywords ***

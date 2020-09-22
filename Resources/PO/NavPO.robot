@@ -2,11 +2,12 @@
 Library  SeleniumLibrary
 
 *** Variables ***
-${HOME_NAV} =  xpath=//*[@title='home']
-${COMPANY_DPDWN} =  xpath=//*[@class='arrow-indicator']
 ${ABOUT_US} =  //*[text()[contains(.,'About Us')]]
 ${ABOUT_US_TEXT} =  providing the best and user friendly application to our customers
 ${ABOUT_US_TOGGLE} =  id=toggleStyle04-headingOne
+${COMPANY_DPDWN} =  xpath=//*[@class='arrow-indicator']
+${HOME_NAV} =  xpath=//*[@title='home']
+
 
 
 *** Keywords ***
