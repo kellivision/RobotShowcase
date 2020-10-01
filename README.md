@@ -9,11 +9,11 @@ Ensure the local environment has the following:
 - Python 3+
 
 
-Using different browsers:
-The browser that is used is controlled by ${BROWSER} variable defined in resource.robot resource file. Firefox browser is used by default, but that can be easily overridden from the command line:
+# Using different browsers:
+The browser that is used is controlled by ${BROWSER} variable defined in resource.robot resource file. Chrome browser is used by default, but that can be easily overridden from the command line:
 
-robot --variable BROWSER:Firefox Tests/Homepage.robot
-robot --variable BROWSER:IE Tests/Homepage.robot
+- robot --variable BROWSER:Firefox Tests/Homepage.robot
+- robot --variable BROWSER:IE Tests/Homepage.robot
 
 
 ### pip libraries:
